@@ -113,10 +113,6 @@ const Search = () => {
           </table>
         </div>
       )}
-
-      {searchResults.users.length === 0 && searchResults.companies.length === 0 && query && (
-        <p>No results found for "{query}"</p>
-      )}
     </div>
   );
 };
