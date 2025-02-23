@@ -1,0 +1,85 @@
+.getCompany {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .getCompany h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .getCompany .back {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .getCompany .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .getCompany label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .getCompany input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .getCompany button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .getCompany button:disabled {
+    background-color: #ccc;
+  }
+  
+  .getCompany .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .getCompany .companyDetails {
+    margin-top: 30px;
+  }
+  
+  .getCompany .companyDetails h4 {
+    margin-bottom: 10px;
+  }
+  
+  .getCompany .companyDetails p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .getCompany .companyDetails ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .getCompany .companyDetails li {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  

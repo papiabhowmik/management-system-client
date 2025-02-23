@@ -1,0 +1,70 @@
+.createCompany {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createCompany h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .createCompany .back {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .createCompany .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .createCompany label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .createCompany input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .createCompany button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .createCompany button:disabled {
+    background-color: #ccc;
+  }
+  
+  .createCompany .message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .createCompany .message {
+    color: green;
+  }
+  
+  .createCompany .errorMessage {
+    color: red;
+  }
+  

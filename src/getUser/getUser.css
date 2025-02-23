@@ -1,0 +1,75 @@
+.getUser {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .getUser h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .getUser .back {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .getUser .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .getUser label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .getUser input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .getUser button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .getUser button:disabled {
+    background-color: #ccc;
+  }
+  
+  .getUser .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .getUser .userDetails {
+    margin-top: 30px;
+  }
+  
+  .getUser .userDetails h4 {
+    margin-bottom: 10px;
+  }
+  
+  .getUser .userDetails p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  

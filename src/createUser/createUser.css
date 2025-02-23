@@ -1,0 +1,70 @@
+.createUser {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createUser h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .createUser .back {
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .createUser .inputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .createUser label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .createUser input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .createUser button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .createUser button:disabled {
+    background-color: #ccc;
+  }
+  
+  .createUser .message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .createUser .message {
+    color: green;
+  }
+  
+  .createUser .errorMessage {
+    color: red;
+  }
+  
